@@ -8,7 +8,7 @@ A Python3 program that calculates the date of Easter Eve according to the Gregor
 Note that this is only meaningful for years after 1582.
 
 ## Usage
-```sh
+```
 usage: easter [-h] [-v] YEAR [YEAR ...]
 
 Get the date of Easter Eve according to the Gregorian calender. Only
@@ -20,4 +20,4 @@ positional arguments:
 optional arguments:
   -h, --help     show this help message and exit
   -v, --version  show program's version number and exit
-  ```
+```
