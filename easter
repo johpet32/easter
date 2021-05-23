@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # easter 0.1 <https://www.github.com/johpet32/easter>
-# Get the date of Easter Eve according to the Gregorian calender
+# Get the date of Easter Day according to the Gregorian calender
 # (only meaningful for years after 1582)
 #
 # Copyright (C) 2020 johpet32
@@ -41,11 +41,11 @@ def print_date(year_in):
     if day < 1 or (day + month > 34):
         die("internal error 2")
 
-    print(year, '\tSaturday', day, 'of', month_str)
+    print(year, '\tSunday', day, 'of', month_str)
 
 ### Main ###
 parser = argparse.ArgumentParser(prog=CMDNAME,
-  description='Get the date of Easter Eve according to '
+  description='Get the date of Easter Day according to '
   'the Gregorian calender. Only meaningful for years after 1582.')
 
 parser.add_argument('-v', '--version', action='version',
