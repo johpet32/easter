@@ -4,8 +4,9 @@
 # Get the date of Easter Day according to the Gregorian calender
 # (only meaningful for years after 1582)
 #
-# Copyright (C) 2020 johpet32
-# License: GNU General Public License version 3 or later
+# Copyright (C) 2020-2021 johpet32
+# License: GNU General Public License version 3 or later,
+#          see LICENSE in the project's root directory
 
 import sys
 import argparse
